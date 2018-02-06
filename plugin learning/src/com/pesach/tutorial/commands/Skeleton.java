@@ -114,8 +114,10 @@ public boolean onCommand(CommandSender sender, Command command, String label, St
 			  
 			  if(e instanceof Player) {
 				  nearby.add((Player) e); 
+				  Bukkit.broadcastMessage("Player detected!");
 			  }
 		  }
+		  
 		  return nearby;
 	  }
 }
