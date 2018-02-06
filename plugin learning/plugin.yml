@@ -1,0 +1,16 @@
+main: com.pesach.tutorial.tutorial
+version: 1.0
+name: tutPlugin
+
+
+
+commands:
+  staff:
+    description: says hello, lists the staff and indicates whether or not they are online.
+  menu:
+    description: Equips the player with stuff!
+  info:
+    description: Gives server info.
+  skeleton:
+    description: spawns a special skeleton.
+    
